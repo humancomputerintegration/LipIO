@@ -1,5 +1,5 @@
 # LipIO: Enabling Lips as both Input and Output Surface
-This repository includes software codes and an end-effector design file for the paper "LipIO: Enabling Lips as both Input and Output Surface" (ACM CHI2023).
+This repository includes code and design files for the paper "LipIO: Enabling Lips as both Input and Output Surface" (ACM CHI2023).
 
 **Summary:** LipIO is an open-source device that allows you to control external applications. Its hardware is built on top of an SAMD21 microcontroller (we used the Seeeduino XIAO, but you can use your favorite microcontroller), a capacitive touch sensor (we used the MPR121, but others are possible, even the built-in touch input from the SAMD21) and a electrical stimulator (we used the medical-grade Rehastim, but you can use others, such as the open-source [OpenEMSstim](https://github.com/PedroLopes/openEMSstim)). Its firmware is built using Arduino, while its software depends on what you are trying to control, here you have freedom to use it as you like and plug the data from LipIO into your own applications, we processing (P5) to create a simple vizualizer that allows you to see the data from LipIO and how to interface with any application. 
 
